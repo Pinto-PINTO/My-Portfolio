@@ -1,0 +1,36 @@
+
+.link,
+.brand,
+.w-nav-brand,
+.w--current{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+    transform-style: preserve-3d; 
+    opacity: 1;
+}
+
+/* Up is not sure */
+
+.link-underline{
+    transform: translate3d(-102%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+    transform-style: preserve-3d;
+}
+
+.link,
+.email,
+.w-nav-brand{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+    transform-style: preserve-3d; 
+    opacity: 1;
+}
+
+
+.menu-button,
+.close,
+.w-nav-button{
+    -webkit-user-select: text;
+}
+
+
+.nav-content{
+    opacity: 0;
+} 
