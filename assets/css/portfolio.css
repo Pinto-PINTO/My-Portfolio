@@ -20,7 +20,19 @@
 html,
 body {
     height: 100%;
+
+    /* Hiding Scroll Bar */
+    overflow: scroll;
+    overflow-x: hidden;
 }
+
+/* Hiding the Scroll-bar START*/
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Hiding the Scroll-bar END*/
+
 
 .title {
     text-align: center;
@@ -525,6 +537,15 @@ footer h4 {
 /* Animated Header Section START */
 
 .cd-intro{
+    width: 100% !important;
+    font-family: "Source Sans Pro", sans-serif !important;
+}
+
+.headline{
+    width: 100% !important;
+}
+
+.cd-headline .letters .type{
     width: 100% !important;
 }
 
