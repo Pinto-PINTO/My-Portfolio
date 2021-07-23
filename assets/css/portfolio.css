@@ -4951,4 +4951,44 @@ html {
       grid-column-end: span 1;
     }
   }
+
+
+/* ----------Top Social Media ICONS START---------- */
+
+/* .social-media-icons{
+    align-items: center !important;
+} */
+
+
+.social-media-icons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  
+  span {
+    width: 50px;
+    height: 50px;
+  }
+
+
+
+/* ----------Top Social Media ICONS END---------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
