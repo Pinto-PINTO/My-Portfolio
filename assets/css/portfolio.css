@@ -539,6 +539,9 @@ footer h4 {
 .cd-intro{
     width: 100% !important;
     font-family: "Source Sans Pro", sans-serif !important;
+    font-size: 2em !important;
+    font-weight: bold !important;
+    font: 30px !important;
 }
 
 .headline{
